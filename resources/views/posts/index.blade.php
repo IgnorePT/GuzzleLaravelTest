@@ -19,9 +19,9 @@
     @foreach ($posts as $post)
     <div class="card">
         <div class="card-body">
-        <a href="/posts/{{ $post -> id }}">
-         {{ $post -> title }}
-        </a>
+            <a href="/posts/{{ $post -> id }}">
+                {{ $post -> title }}
+            </a>
         </div>
     </div>
     @endforeach

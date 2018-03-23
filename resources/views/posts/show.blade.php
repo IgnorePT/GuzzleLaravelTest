@@ -18,15 +18,15 @@
         <h2>Post<h2>
         
         <div class="card">
-            <div class="card-header">
-                <h3>{{ $post -> title }}<h3>
-            </div>
+        
             <div class="card-body">
-            
-                <p>{{ $post -> body }}</p>
 
-                <a href="/">Return</a>
+                <h4 class="card-title">{{ $post -> title }}</h4>
+                <p class="card-text" >{{ $post -> body }}</p>
 
+            </div>
+            <div class="card-footer">
+            <a class="btn btn-primary" href="/">Return</a>
             </div>
         </div>
     </div>
